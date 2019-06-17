@@ -1,0 +1,82 @@
+Endpoint para obtener una lista de Recaudadores
+Retorna un listado de Recaudadores asociados al país, la moneda y el método de pago seleccionado.
+---
+tags:
+  - private/deposits_search
+parameters:
+  - in: header
+    name: DataToken
+    required: true
+    default: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjgxMzczODcsIm5iZiI6MTUyODEzNzM4NywianRpIjoiNTM2NTE0MTctOWMwNS00NTMxLWJkNTItYjMxZjE5YWEwZTExIiwiZXhwIjoxNTI4MTQwOTg3LCJpZGVudGl0eSI6MzQ3LCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.mfqC1or5NELVnn1XLx2MteaLuF9xuQSrJyomjtqYkAg"
+    type: string
+    description: Token de autenticación.
+  - name: platform
+    in: path
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    type: integer
+    required: true
+    default: 1
+  - name: id_money
+    in: path
+    type: integer
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    required: true
+    default: 1
+  - name: id_country
+    in: path
+    type: integer
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    required: true
+    default: 1
+  - name: id_payment
+    in: path
+    type: integer
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    required: true
+    default: 1
+  - name: id_collect
+    in: path
+    type: integer
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    required: true
+    default: 1
+  - name: status
+    in: path
+    type: integer
+    enum: [1,2,3,4,5,6,7,8,9,10]
+    required: true
+    default: 1
+responses:
+  200:
+    description: Objeto json con el resultado paginado de la consulta
+    schema:
+      id: deposits_search
+      properties:
+        commissions:
+          type: object
+          schema:
+            $ref: '#/definitions/deposits_search'
+    examples:
+      {
+  "count": 3,
+  "limit": 10,
+  "next": null,
+  "previous": null,
+  "result": [
+    {
+      "amount": 2.57,
+      "name": "retiros"
+    },
+    {
+      "amount": 9.65,
+      "name": "depositos"
+    },
+    {
+      "amount": 3.45,
+      "name": "depositos2"
+    }
+  ],
+  "start": 1
+}
+  401:
+      description: verify_code Unaothorized

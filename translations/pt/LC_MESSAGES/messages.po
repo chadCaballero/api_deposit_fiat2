@@ -1,0 +1,1039 @@
+# Portuguese translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-06-13 14:37-0500\n"
+"PO-Revision-Date: 2018-06-13 14:37-0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: apps/public/v1/controllers.py:44 assets/strings.py:3
+msgid ""
+"500 Internal Server Error: The server encountered an internal error and "
+"was unable to complete your request.  Either the server is overloaded or "
+"there is an error in the application."
+msgstr ""
+
+#: assets/strings.py:6
+msgid "Afghanistan"
+msgstr ""
+
+#: assets/strings.py:7
+msgid "Albania"
+msgstr ""
+
+#: assets/strings.py:8
+msgid "Algeria"
+msgstr ""
+
+#: assets/strings.py:9
+msgid "Andorra"
+msgstr ""
+
+#: assets/strings.py:10
+msgid "American Samoa"
+msgstr ""
+
+#: assets/strings.py:11
+msgid "Angola"
+msgstr ""
+
+#: assets/strings.py:12
+msgid "Anguilla"
+msgstr ""
+
+#: assets/strings.py:13
+msgid "Antartica"
+msgstr ""
+
+#: assets/strings.py:14
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: assets/strings.py:15
+msgid "Argentina"
+msgstr ""
+
+#: assets/strings.py:16
+msgid "Armenia"
+msgstr ""
+
+#: assets/strings.py:17
+msgid "Aruba"
+msgstr ""
+
+#: assets/strings.py:18
+msgid "Ashmore and Cartier Island"
+msgstr ""
+
+#: assets/strings.py:19
+msgid "Australia"
+msgstr ""
+
+#: assets/strings.py:20
+msgid "Austria"
+msgstr ""
+
+#: assets/strings.py:21
+msgid "Azerbaijan"
+msgstr ""
+
+#: assets/strings.py:22
+msgid "Bahamas"
+msgstr ""
+
+#: assets/strings.py:23
+msgid "Bahrain"
+msgstr ""
+
+#: assets/strings.py:24
+msgid "Bangladesh"
+msgstr ""
+
+#: assets/strings.py:25
+msgid "Barbados"
+msgstr ""
+
+#: assets/strings.py:26
+msgid "Belarus"
+msgstr ""
+
+#: assets/strings.py:27
+msgid "Belgium"
+msgstr ""
+
+#: assets/strings.py:28
+msgid "Belize"
+msgstr ""
+
+#: assets/strings.py:29
+msgid "Benin"
+msgstr ""
+
+#: assets/strings.py:30
+msgid "Bermuda"
+msgstr ""
+
+#: assets/strings.py:31
+msgid "Bhutan"
+msgstr ""
+
+#: assets/strings.py:32
+msgid "Bolivia"
+msgstr ""
+
+#: assets/strings.py:33
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: assets/strings.py:34
+msgid "Botswana"
+msgstr ""
+
+#: assets/strings.py:35
+msgid "Brazil"
+msgstr ""
+
+#: assets/strings.py:36
+msgid "British Virgin Islands"
+msgstr ""
+
+#: assets/strings.py:37
+msgid "Brunei"
+msgstr ""
+
+#: assets/strings.py:38
+msgid "Bulgaria"
+msgstr ""
+
+#: assets/strings.py:39
+msgid "Burkina Faso"
+msgstr ""
+
+#: assets/strings.py:40
+msgid "Burma"
+msgstr ""
+
+#: assets/strings.py:41
+msgid "Burundi"
+msgstr ""
+
+#: assets/strings.py:42
+msgid "Cambodia"
+msgstr ""
+
+#: assets/strings.py:43
+msgid "Cameroon"
+msgstr ""
+
+#: assets/strings.py:44
+msgid "Canada"
+msgstr ""
+
+#: assets/strings.py:45
+msgid "Cape Verde"
+msgstr ""
+
+#: assets/strings.py:46
+msgid "Cayman Islands"
+msgstr ""
+
+#: assets/strings.py:47
+msgid "Central African Republic"
+msgstr ""
+
+#: assets/strings.py:48
+msgid "Chad"
+msgstr ""
+
+#: assets/strings.py:49
+msgid "Chile"
+msgstr ""
+
+#: assets/strings.py:50
+msgid "China"
+msgstr ""
+
+#: assets/strings.py:51
+msgid "Christmas Island"
+msgstr ""
+
+#: assets/strings.py:52
+msgid "Clipperton Island"
+msgstr ""
+
+#: assets/strings.py:53
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: assets/strings.py:54
+msgid "Colombia"
+msgstr ""
+
+#: assets/strings.py:55
+msgid "Comoros"
+msgstr ""
+
+#: assets/strings.py:56
+msgid "Congo"
+msgstr ""
+
+#: assets/strings.py:57
+msgid "Cook Islands"
+msgstr ""
+
+#: assets/strings.py:58
+msgid "Costa Rica"
+msgstr ""
+
+#: assets/strings.py:59
+msgid "Cote dIvoire"
+msgstr ""
+
+#: assets/strings.py:60
+msgid "Croatia"
+msgstr ""
+
+#: assets/strings.py:61
+msgid "Cuba"
+msgstr ""
+
+#: assets/strings.py:62
+msgid "Cyprus"
+msgstr ""
+
+#: assets/strings.py:63
+msgid "Czeck Republic"
+msgstr ""
+
+#: assets/strings.py:64
+msgid "Denmark"
+msgstr ""
+
+#: assets/strings.py:65
+msgid "Djibouti"
+msgstr ""
+
+#: assets/strings.py:66
+msgid "Dominica"
+msgstr ""
+
+#: assets/strings.py:67
+msgid "Dominican Republic"
+msgstr ""
+
+#: assets/strings.py:68
+msgid "Ecuador"
+msgstr ""
+
+#: assets/strings.py:69
+msgid "Egypt"
+msgstr ""
+
+#: assets/strings.py:70
+msgid "El Salvador"
+msgstr ""
+
+#: assets/strings.py:71
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: assets/strings.py:72
+msgid "Eritrea"
+msgstr ""
+
+#: assets/strings.py:73
+msgid "Estonia"
+msgstr ""
+
+#: assets/strings.py:74
+msgid "Ethiopia"
+msgstr ""
+
+#: assets/strings.py:75
+msgid "Europa Island"
+msgstr ""
+
+#: assets/strings.py:76
+msgid "Falkland Islands (Islas Malvinas)"
+msgstr ""
+
+#: assets/strings.py:77
+msgid "Faroe Islands"
+msgstr ""
+
+#: assets/strings.py:78
+msgid "Fiji"
+msgstr ""
+
+#: assets/strings.py:79
+msgid "Finland"
+msgstr ""
+
+#: assets/strings.py:80
+msgid "France"
+msgstr ""
+
+#: assets/strings.py:81
+msgid "French Guiana"
+msgstr ""
+
+#: assets/strings.py:82
+msgid "French Polynesia"
+msgstr ""
+
+#: assets/strings.py:83
+msgid "French Southern and Antarctic Lands"
+msgstr ""
+
+#: assets/strings.py:84
+msgid "Gabon"
+msgstr ""
+
+#: assets/strings.py:85
+msgid "Gambia"
+msgstr ""
+
+#: assets/strings.py:86
+msgid "Gaza Strip"
+msgstr ""
+
+#: assets/strings.py:87
+msgid "Georgia"
+msgstr ""
+
+#: assets/strings.py:88
+msgid "Germany"
+msgstr ""
+
+#: assets/strings.py:89
+msgid "Ghana"
+msgstr ""
+
+#: assets/strings.py:90
+msgid "Gibraltar"
+msgstr ""
+
+#: assets/strings.py:91
+msgid "Glorioso Islands"
+msgstr ""
+
+#: assets/strings.py:92
+msgid "Greece"
+msgstr ""
+
+#: assets/strings.py:93
+msgid "Greenland"
+msgstr ""
+
+#: assets/strings.py:94
+msgid "Grenada"
+msgstr ""
+
+#: assets/strings.py:95
+msgid "Guadeloupe"
+msgstr ""
+
+#: assets/strings.py:96
+msgid "Guam"
+msgstr ""
+
+#: assets/strings.py:97
+msgid "Guatemala"
+msgstr ""
+
+#: assets/strings.py:98
+msgid "Guernsey"
+msgstr ""
+
+#: assets/strings.py:99
+msgid "Guinea"
+msgstr ""
+
+#: assets/strings.py:100
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: assets/strings.py:101
+msgid "Guyana"
+msgstr ""
+
+#: assets/strings.py:102
+msgid "Haiti"
+msgstr ""
+
+#: assets/strings.py:103
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: assets/strings.py:104
+msgid "Holy See (Vatican City)"
+msgstr ""
+
+#: assets/strings.py:105
+msgid "Honduras"
+msgstr ""
+
+#: assets/strings.py:106
+msgid "Hong Kong"
+msgstr ""
+
+#: assets/strings.py:107
+msgid "Howland Island"
+msgstr ""
+
+#: assets/strings.py:108
+msgid "Hungary"
+msgstr ""
+
+#: assets/strings.py:109
+msgid "Iceland"
+msgstr ""
+
+#: assets/strings.py:110
+msgid "India"
+msgstr ""
+
+#: assets/strings.py:111
+msgid "Indonesia"
+msgstr ""
+
+#: assets/strings.py:112
+msgid "Iran"
+msgstr ""
+
+#: assets/strings.py:113
+msgid "Iraq"
+msgstr ""
+
+#: assets/strings.py:114
+msgid "Ireland"
+msgstr ""
+
+#: assets/strings.py:115
+msgid "Israel"
+msgstr ""
+
+#: assets/strings.py:116
+msgid "Italy"
+msgstr ""
+
+#: assets/strings.py:117
+msgid "Jamaica"
+msgstr ""
+
+#: assets/strings.py:118
+msgid "Jan Mayen"
+msgstr ""
+
+#: assets/strings.py:119
+msgid "Japan"
+msgstr ""
+
+#: assets/strings.py:120
+msgid "Jarvis Island"
+msgstr ""
+
+#: assets/strings.py:121
+msgid "Jersey"
+msgstr ""
+
+#: assets/strings.py:122
+msgid "Johnston Atoll"
+msgstr ""
+
+#: assets/strings.py:123
+msgid "Jordan"
+msgstr ""
+
+#: assets/strings.py:124
+msgid "Juan de Nova Island"
+msgstr ""
+
+#: assets/strings.py:125
+msgid "Kazakhstan"
+msgstr ""
+
+#: assets/strings.py:126
+msgid "Kenya"
+msgstr ""
+
+#: assets/strings.py:127
+msgid "Kiribati"
+msgstr ""
+
+#: assets/strings.py:128
+msgid "Korea North"
+msgstr ""
+
+#: assets/strings.py:129
+msgid "Korea South"
+msgstr ""
+
+#: assets/strings.py:130
+msgid "Kuwait"
+msgstr ""
+
+#: assets/strings.py:131
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: assets/strings.py:132
+msgid "Laos"
+msgstr ""
+
+#: assets/strings.py:133
+msgid "Latvia"
+msgstr ""
+
+#: assets/strings.py:134
+msgid "Lebanon"
+msgstr ""
+
+#: assets/strings.py:135
+msgid "Lesotho"
+msgstr ""
+
+#: assets/strings.py:136
+msgid "Liberia"
+msgstr ""
+
+#: assets/strings.py:137
+msgid "Libya"
+msgstr ""
+
+#: assets/strings.py:138
+msgid "Liechtenstein"
+msgstr ""
+
+#: assets/strings.py:139
+msgid "Lithuania"
+msgstr ""
+
+#: assets/strings.py:140
+msgid "Luxembourg"
+msgstr ""
+
+#: assets/strings.py:141
+msgid "Macau"
+msgstr ""
+
+#: assets/strings.py:142
+msgid "Macedonia"
+msgstr ""
+
+#: assets/strings.py:143
+msgid "Madagascar"
+msgstr ""
+
+#: assets/strings.py:144
+msgid "Malawi"
+msgstr ""
+
+#: assets/strings.py:145
+msgid "Malaysia"
+msgstr ""
+
+#: assets/strings.py:146
+msgid "Maldives"
+msgstr ""
+
+#: assets/strings.py:147
+msgid "Mali"
+msgstr ""
+
+#: assets/strings.py:148
+msgid "Malta"
+msgstr ""
+
+#: assets/strings.py:149
+msgid "Man Isle of"
+msgstr ""
+
+#: assets/strings.py:150
+msgid "Marshall Islands"
+msgstr ""
+
+#: assets/strings.py:151
+msgid "Martinique"
+msgstr ""
+
+#: assets/strings.py:152
+msgid "Mauritania"
+msgstr ""
+
+#: assets/strings.py:153
+msgid "Mauritius"
+msgstr ""
+
+#: assets/strings.py:154
+msgid "Mayotte"
+msgstr ""
+
+#: assets/strings.py:155
+msgid "Mexico"
+msgstr ""
+
+#: assets/strings.py:156
+msgid "Micronesia"
+msgstr ""
+
+#: assets/strings.py:157
+msgid "Midway Islands"
+msgstr ""
+
+#: assets/strings.py:158
+msgid "Moldova"
+msgstr ""
+
+#: assets/strings.py:159
+msgid "Monaco"
+msgstr ""
+
+#: assets/strings.py:160
+msgid "Mongolia"
+msgstr ""
+
+#: assets/strings.py:161
+msgid "Montserrat"
+msgstr ""
+
+#: assets/strings.py:162
+msgid "Morocco"
+msgstr ""
+
+#: assets/strings.py:163
+msgid "Mozambique"
+msgstr ""
+
+#: assets/strings.py:164
+msgid "Namibia"
+msgstr ""
+
+#: assets/strings.py:165
+msgid "Nauru"
+msgstr ""
+
+#: assets/strings.py:166
+msgid "Nepal"
+msgstr ""
+
+#: assets/strings.py:167
+msgid "Netherlands"
+msgstr ""
+
+#: assets/strings.py:168
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: assets/strings.py:169
+msgid "New Caledonia"
+msgstr ""
+
+#: assets/strings.py:170
+msgid "New Zealand"
+msgstr ""
+
+#: assets/strings.py:171
+msgid "Nicaragua"
+msgstr ""
+
+#: assets/strings.py:172
+msgid "Niger"
+msgstr ""
+
+#: assets/strings.py:173
+msgid "Nigeria"
+msgstr ""
+
+#: assets/strings.py:174
+msgid "Niue"
+msgstr ""
+
+#: assets/strings.py:175
+msgid "Norfolk Island"
+msgstr ""
+
+#: assets/strings.py:176
+msgid "No Man`s Island"
+msgstr ""
+
+#: assets/strings.py:177
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: assets/strings.py:178
+msgid "Norway"
+msgstr ""
+
+#: assets/strings.py:179
+msgid "Oman"
+msgstr ""
+
+#: assets/strings.py:180
+msgid "Pakistan"
+msgstr ""
+
+#: assets/strings.py:181
+msgid "Palau"
+msgstr ""
+
+#: assets/strings.py:182
+msgid "Panama"
+msgstr ""
+
+#: assets/strings.py:183
+msgid "Papua New Guinea"
+msgstr ""
+
+#: assets/strings.py:184
+msgid "Paraguay"
+msgstr ""
+
+#: assets/strings.py:185
+msgid "Peru"
+msgstr ""
+
+#: assets/strings.py:186
+msgid "Philippines"
+msgstr ""
+
+#: assets/strings.py:187
+msgid "Pitcaim Islands"
+msgstr ""
+
+#: assets/strings.py:188
+msgid "Poland"
+msgstr ""
+
+#: assets/strings.py:189
+msgid "Portugal"
+msgstr ""
+
+#: assets/strings.py:190
+msgid "Puerto Rico"
+msgstr ""
+
+#: assets/strings.py:191
+msgid "Qatar"
+msgstr ""
+
+#: assets/strings.py:192
+msgid "Reunion"
+msgstr ""
+
+#: assets/strings.py:193
+msgid "Romainia"
+msgstr ""
+
+#: assets/strings.py:194
+msgid "Russia"
+msgstr ""
+
+#: assets/strings.py:195
+msgid "Rwanda"
+msgstr ""
+
+#: assets/strings.py:196
+msgid "Saint Helena"
+msgstr ""
+
+#: assets/strings.py:197
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: assets/strings.py:198
+msgid "Saint Lucia"
+msgstr ""
+
+#: assets/strings.py:199
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: assets/strings.py:200
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: assets/strings.py:201
+msgid "Samoa"
+msgstr ""
+
+#: assets/strings.py:202
+msgid "San Marino"
+msgstr ""
+
+#: assets/strings.py:203
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: assets/strings.py:204
+msgid "Saudi Arabia"
+msgstr ""
+
+#: assets/strings.py:205
+msgid "Scotland"
+msgstr ""
+
+#: assets/strings.py:206
+msgid "Senegal"
+msgstr ""
+
+#: assets/strings.py:207
+msgid "Serbia and Monterago"
+msgstr ""
+
+#: assets/strings.py:208
+msgid "Seychelles"
+msgstr ""
+
+#: assets/strings.py:209
+msgid "Sierra Leone"
+msgstr ""
+
+#: assets/strings.py:210
+msgid "Singapore"
+msgstr ""
+
+#: assets/strings.py:211
+msgid "Slovakia"
+msgstr ""
+
+#: assets/strings.py:212
+msgid "Slovenia"
+msgstr ""
+
+#: assets/strings.py:213
+msgid "Solomon Islands"
+msgstr ""
+
+#: assets/strings.py:214
+msgid "Somalia"
+msgstr ""
+
+#: assets/strings.py:215
+msgid "South Africa"
+msgstr ""
+
+#: assets/strings.py:216
+msgid "South Georgia and the South Sandwich Islandss"
+msgstr ""
+
+#: assets/strings.py:217
+msgid "Spain"
+msgstr ""
+
+#: assets/strings.py:218
+msgid "Spratly Islands"
+msgstr ""
+
+#: assets/strings.py:219
+msgid "SriLanka"
+msgstr ""
+
+#: assets/strings.py:220
+msgid "Sudan"
+msgstr ""
+
+#: assets/strings.py:221
+msgid "Suriname"
+msgstr ""
+
+#: assets/strings.py:222
+msgid "Svalbard"
+msgstr ""
+
+#: assets/strings.py:223
+msgid "Swaziland"
+msgstr ""
+
+#: assets/strings.py:224
+msgid "Sweden"
+msgstr ""
+
+#: assets/strings.py:225
+msgid "Switzerland"
+msgstr ""
+
+#: assets/strings.py:226
+msgid "Syria"
+msgstr ""
+
+#: assets/strings.py:227
+msgid "Taiwan"
+msgstr ""
+
+#: assets/strings.py:228
+msgid "Tajikistan"
+msgstr ""
+
+#: assets/strings.py:229
+msgid "Tanzania"
+msgstr ""
+
+#: assets/strings.py:230
+msgid "Thailand"
+msgstr ""
+
+#: assets/strings.py:231
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: assets/strings.py:232
+msgid "Toga"
+msgstr ""
+
+#: assets/strings.py:233
+msgid "Tokelau"
+msgstr ""
+
+#: assets/strings.py:234
+msgid "Tonga"
+msgstr ""
+
+#: assets/strings.py:235
+msgid "Tunisia"
+msgstr ""
+
+#: assets/strings.py:236
+msgid "Turkey"
+msgstr ""
+
+#: assets/strings.py:237
+msgid "Turkmenistan"
+msgstr ""
+
+#: assets/strings.py:238
+msgid "Turks and Caicos Island"
+msgstr ""
+
+#: assets/strings.py:239
+msgid "Tuvalu"
+msgstr ""
+
+#: assets/strings.py:240
+msgid "Uganda"
+msgstr ""
+
+#: assets/strings.py:241
+msgid "Ukraine"
+msgstr ""
+
+#: assets/strings.py:242
+msgid "United Arab Emirates"
+msgstr ""
+
+#: assets/strings.py:243
+msgid "United Kingdom"
+msgstr ""
+
+#: assets/strings.py:244
+msgid "Uruguay"
+msgstr ""
+
+#: assets/strings.py:245
+msgid "United States"
+msgstr ""
+
+#: assets/strings.py:246
+msgid "Uzbekistan"
+msgstr ""
+
+#: assets/strings.py:247
+msgid "Vanuatu"
+msgstr ""
+
+#: assets/strings.py:248
+msgid "Venezuela"
+msgstr ""
+
+#: assets/strings.py:249
+msgid "Vietnam"
+msgstr ""
+
+#: assets/strings.py:250
+msgid "Virgin Islands"
+msgstr ""
+
+#: assets/strings.py:251
+msgid "Wales"
+msgstr ""
+
+#: assets/strings.py:252
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: assets/strings.py:253
+msgid "West Bank"
+msgstr ""
+
+#: assets/strings.py:254
+msgid "Western Sahara"
+msgstr ""
+
+#: assets/strings.py:255
+msgid "Yemen"
+msgstr ""
+
+#: assets/strings.py:256
+msgid "Yugoslavia"
+msgstr ""
+
+#: assets/strings.py:257
+msgid "Zambia"
+msgstr ""
+
+#: assets/strings.py:258
+msgid "Zimbabwe"
+msgstr ""
+

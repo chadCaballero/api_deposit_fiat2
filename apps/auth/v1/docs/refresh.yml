@@ -1,0 +1,28 @@
+Endpoint para obtener un refresh token check
+Retorna un listado de Recaudadores asociados al país, la moneda y el método de pago seleccionado.
+---
+tags:
+  - auth/Refresh
+parameters:
+  - in: header
+    name: DataToken
+    required: true
+    default: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjcxOTcyMzYsIm5iZiI6MTUyNzE5NzIzNiwianRpIjoiZmMzMmY4MjYtM2QxZS00ODBmLThiYzAtYzk0Y2I5MjhhN2JhIiwiZXhwIjoxNTI5Nzg5MjM2LCJpZGVudGl0eSI6InRlc3RAYml0aW5rYS5jb20iLCJ0eXBlIjoicmVmcmVzaCJ9.gvBXVxjBO9TUHVhbKKvCJppPM5wiFI4dsQA0h-UDhZ0"
+    type: string
+    description: Refresh token para pedir un nuevo token.
+    schema:
+      $ref: '#/definitions/DataToken'
+responses:
+  200:
+    description: Objeto json con el resultado paginado de la consulta
+    schema:
+      id: Refresh
+      properties:
+        commissions:
+          type: object
+          schema:
+            $ref: '#/definitions/Refresh'
+    examples:
+      {"access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjcxOTc2NTcsIm5iZiI6MTUyNzE5NzY1NywianRpIjoiY2I1NWQ3MDQtM2VlZi00ZjNkLWJmZjItOGMyMjVjZjA4NWZmIiwiZXhwIjoxNTI3MTk4NTU3LCJpZGVudGl0eSI6InRlc3RAYml0aW5rYS5jb20iLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.4XjsM-3ZJ3a2GXz83p0GYPBjDIPJnMLWgdgfpDGWIv0"}
+  401:
+      description: verify_code Unaothorized

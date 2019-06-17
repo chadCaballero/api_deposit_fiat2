@@ -1,0 +1,41 @@
+Endpoint para obtener un token de acceso check
+Retorna un objeto con la llave token y refresh_token
+---
+tags:
+  - auth/Login
+consumes:
+  - application/json
+produces:
+  - application/json
+parameters:
+  - in: body
+    name: credenciales
+    required: true
+    default: '{
+	"user_id":2,
+	"session_id":"active"
+    }'
+    type: object
+    description: Email y Contraseña unicos del cliente
+    schema:
+      $ref: '#/definitions/credenciales'
+responses:
+  200:
+    description: Objeto json con el token y refresh_token
+    schema:
+      $ref: '#/definitions/Login'
+    examples:
+      {"access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjY5OT
+                        g5NzEsIm5iZiI6MTUyNjk5ODk3MSwianRpIjoiN2MzMGZlYjAtYTE2M
+                        y00ZjI3LTk4NGYtYjdhZjdlOTdmOThmIiwiZXhwIjoxNTI2OTk5ODcx
+                        LCJpZGVudGl0eSI6InRlc3RAYml0aW5rYS5jb20iLCJmcmVzaCI6ZmF
+                        sc2UsInR5cGUiOiJhY2Nlc3MifQ.uxSlrGyefLZ2FPdje0BAhhW_pWz
+                        6GE8MIKlHk_NICpE",
+      "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1MjY5OT
+                        g5NzEsIm5iZiI6MTUyNjk5ODk3MSwianRpIjoiODY5NzgzYzgtZjYyO
+                        S00NjE4LWIzNTQtYmJkNGI0N2NjNmRkIiwiZXhwIjoxNTI5NTkwOTcx
+                        LCJpZGVudGl0eSI6InRlc3RAYml0aW5rYS5jb20iLCJ0eXBlIjoicmV
+                        mcmVzaCJ9.W1hm1-VY5R1eG5awt98RkOWVUWSD27vvvHqFggljkjQ"
+      }
+  401:
+    description: verify_code Unaothorized

@@ -1,0 +1,52 @@
+Endpoint para los Datos Bancarios o instrucciones de pagos.
+Retorna, dependiendo los parámetros recibidos, un arreglo de los Datos Bancarios o instrucciones de pagos.
+---
+tags:
+  - public/Payment
+parameters:
+  - name: id_money
+    in: path
+    type: int
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    required: true
+    default: 1
+  - name: id_country
+    in: path
+    type: int
+    enum: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+    required: true
+    default: 1
+responses:
+  200:
+    description: Objeto json con el resultado paginado de la consulta
+    schema:
+      id: Payment
+      properties:
+        commissions:
+          type: object
+          schema:
+            $ref: '#/definitions/Payment'
+    examples:
+      {
+  "count": 3,
+  "limit": 10,
+  "next": null,
+  "previous": null,
+  "result": [
+    {
+      "amount": 2.57,
+      "name": "retiros"
+    },
+    {
+      "amount": 9.65,
+      "name": "depositos"
+    },
+    {
+      "amount": 3.45,
+      "name": "depositos2"
+    }
+  ],
+  "start": 1
+}
+  401:
+      description: verify_code Unaothorized
